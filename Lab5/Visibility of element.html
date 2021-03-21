@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,4 +30,37 @@
 	</script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alter The Visibility</title>
+</head>
+
+<body>
+	<img id="IMG" src="Image1.png" alt="Image"> <br />
+	<button onclick="change()">Click Me</button>
+
+	<style type="text/css">
+		img
+		{
+			width: 500px;
+			height: 200px;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function change()
+		{
+			var status = document.getElementById("IMG").style.visibility;
+
+			if (status == "hidden")
+				document.getElementById("IMG").style.visibility = "visible";
+			else
+				document.getElementById("IMG").style.visibility = "hidden";
+		}
+	</script>
+</body>
+
+>>>>>>> 3be91ffec87284901ef6bb7bfcbe7b581ac4ce81
 </html>
