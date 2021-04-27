@@ -1,0 +1,62 @@
+body{
+    background-image: url("../project1/guitar.jpg");
+    background-size: cover;
+}
+#user{
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(87, 87, 87);
+    height: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 10px;
+    width: 30%;
+    border: grey solid;
+    border-radius: 10px;
+}
+.nam{
+    margin-left: 15px;
+}
+.wel{
+    text-align: center;
+    
+}
+.mail{
+    font-size:large;
+   
+}
+.name{
+    font-size: 25px;
+    font-weight: 50px;
+    width: 90%;
+    border-radius: 8px;
+
+}
+#spass{
+    font-size: 25px;
+    font-weight: 50px;
+    width: 90%;
+    border-radius: 8px;
+
+}
+.sub{
+    position: absolute;
+    left: 30%;
+    width: 30%;
+    color: grey;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border:rgb(182, 154, 119) solids;
+
+}
+
+a{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+    

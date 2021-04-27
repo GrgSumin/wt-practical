@@ -1,0 +1,30 @@
+body{
+    background-image: url("../project1/guitar.jpg");
+    background-size: cover;
+}
+#head{
+    background-color: rgba(194, 194, 194, 0.1);
+    text-align: center;
+    color:rgb(104, 99, 99);
+    font-family: cursive;
+    width: 60%;
+    position: relative;
+    left: 27%; 
+    border-radius: 10px; 
+    border: black solid;
+     
+}
+.sess{
+    background-color: rgb(0,0,0,0.7);
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    color: rgb(104, 99, 99);
+}
+a:hover{
+    color: blue;
+    
+}
+a{
+    color:  rgb(97, 96, 96);
+}
